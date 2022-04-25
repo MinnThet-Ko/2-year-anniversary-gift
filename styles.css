@@ -2,8 +2,14 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #87ceeb;
 }
+p {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 
+}
 #center-div{
     display: flex;
     flex-direction: column;
@@ -25,22 +31,12 @@ img{
     width: 250px;
 }
 
-.heart-div::before {
-        position: absolute;
-        content: '';
-        width: 100px;
-        height: 100px;
-        background-color: #fff;
-        border-radius: 50%;
-        left: -25px;
+.mindset img {
+    height: 100px;
+    width: 300px;
 }
 
-.heart-div::after {
-    position: absolute;
-    content: '';
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    border-radius: 50%;
-    top: -25px;
+.fight img, .tease img {
+    height: 400px;
+    width: 300px;
 }
